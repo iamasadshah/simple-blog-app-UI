@@ -1,0 +1,29 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 500px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.post-list {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 4px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.create-post {
+  padding: 5px;
+}
