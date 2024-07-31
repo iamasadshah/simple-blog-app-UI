@@ -9,12 +9,12 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
       >
         <a
           href="/"
-          className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
-          <svg className="bi pe-none me-2" width="40" height="32">
-            <use xlinkHref="#bootstrap"></use>
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
           </svg>
-          <span className="fs-4">BlogEase</span>
+          <span class="fs-4"></span>
         </a>
         <hr />
         <ul className="nav nav-pills flex-column mb-auto">
