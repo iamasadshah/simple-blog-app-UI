@@ -1,6 +1,5 @@
 * {
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 .app-container {
@@ -20,11 +19,16 @@
 .post-list {
   display: inline-block;
   margin-top: 4px;
-  margin-left: 4px;
+  margin-left: 10px;
   border-radius: 10px;
   border: 2px solid;
 }
 
 .create-post {
   padding: 5px;
+}
+
+.welcome-message {
+  margin: 20px 0;
+  color: rgb(255, 0, 0);
 }
