@@ -77,7 +77,7 @@ const Createpost = () => {
         </div>
         <div className="mb-3">
           <label htmlFor="tags" className="form-label">
-            Enter Your Tags here
+            Enter Your Tags here...
           </label>
           <input
             ref={tagsElement}
