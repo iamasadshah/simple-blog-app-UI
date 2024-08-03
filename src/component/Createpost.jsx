@@ -81,7 +81,7 @@ const Createpost = () => {
           </label>
           <input
             ref={tagsElement}
-            placeholder="Enter tags using Space"
+            placeholder="Enter tags using Space..."
             type="text"
             className="form-control"
             id="tags"
