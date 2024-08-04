@@ -17,6 +17,7 @@ function App() {
           <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
           <div className="content">
             <Head />
+
             {selectedTab === "Home" ? <Postlist /> : <Createpost />}
             <Foot />
           </div>
