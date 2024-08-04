@@ -26,11 +26,6 @@ const Foot = () => {
               Blogs
             </a>
           </li>
-          <li className="nav-item">
-            <a href="about" className="nav-link px-2 text-body-secondary">
-              About
-            </a>
-          </li>
         </ul>
       </footer>
     </div>

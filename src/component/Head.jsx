@@ -24,11 +24,6 @@ const Head = () => {
               Blogs
             </a>
           </li>
-          <li className="nav-item">
-            <a href="about" className="nav-link text-white">
-              About
-            </a>
-          </li>
         </ul>
       </header>
     </>
