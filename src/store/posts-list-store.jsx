@@ -22,7 +22,7 @@ const postListReducer = (currPostList, action) => {
 };
 
 const PostListProvider = ({ children }) => {
-  const [postList, dispatchPostList] = useReducer(postListReducer, []); // Provide initial state as []
+  const [postList, dispatchPostList] = useReducer(postListReducer, []);
 
   const addPost = (userId, postTitle, postBody, reaction, tags) => {
     dispatchPostList({
