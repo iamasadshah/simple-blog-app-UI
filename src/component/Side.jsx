@@ -28,20 +28,20 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
             </Link>
           </li>
           <li>
-            <a href="/create-post" className="nav-link  text-white">
+            <Link to="/create-post" className="nav-link  text-white">
               <svg className="bi pe-none me-2" width="16" height="16">
                 <use xlinkHref="#speedometer2"></use>
               </svg>
               Create Post
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about" className="nav-link  text-white">
+            <Link to="/about" className="nav-link  text-white">
               <svg className="bi pe-none me-2" width="16" height="16">
                 <use xlinkHref="#speedometer2"></use>
               </svg>
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
