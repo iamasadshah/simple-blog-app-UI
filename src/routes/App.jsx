@@ -6,6 +6,7 @@ import Sidebar from "../component/Side";
 import Createpost from "../component/Createpost";
 import Postlist from "../component/Postlist";
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 import PostListProvider from "../store/posts-list-store";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <div className="content">
             <Head />
 
-            {selectedTab === "Home" ? <Postlist /> : <Createpost />}
+            <Outlet />
             <Foot />
           </div>
         </div>

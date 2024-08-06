@@ -5,12 +5,14 @@ import App from "./routes/App.jsx";
 import "./index.css";
 import Createpost from "./component/Createpost.jsx";
 import About from "./routes/About.jsx";
+import Postlist from "./component/Postlist.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      { path: "/", element: <Postlist /> },
       { path: "/create-post", element: <Createpost /> },
       { path: "/about", element: <About /> },
     ],
